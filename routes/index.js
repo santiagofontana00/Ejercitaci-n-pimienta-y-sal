@@ -5,7 +5,7 @@ var mainController = require('../controllers/mainController.js');
 /* GET home page. */
 router.get('/', mainController.index);
 
-router.get('/algo', mainController.menu);
+router.get('/detalle/:id', mainController.menu);
 
 
 
